@@ -1,4 +1,62 @@
-/node_modules
+# =========================
+# Node.js
+# =========================
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Logs
+logs/
+*.log
+
+# Runtime data
+pids/
+*.pid
+*.seed
+*.pid.lock
+
+# Coverage directory
+coverage/
+
+# Dependency directories
+jspm_packages/
+
+# Optional npm cache directory
+.npm
+
+# =========================
+# Environment variables
+# =========================
 .env
-.env.*.local
-package-lock.json
+.env.*
+!.env.example
+
+# =========================
+# Docker
+# =========================
+docker-compose.override.yml
+*.tar
+*.tgz
+
+# =========================
+# OS / Editor files
+# =========================
+.DS_Store
+Thumbs.db
+
+# VS Code
+.vscode/
+
+# =========================
+# Build / temp
+# =========================
+dist/
+build/
+tmp/
+temp/
+
+# =========================
+# MongoDB local data (if mounted locally)
+# =========================
+mongo-data/
